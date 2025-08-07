@@ -8,7 +8,7 @@ import (
 )
 
 // Zero is a singleton object of zerolog.Logger.
-var Zero = NewZeroLogger("", "info", true)
+var Zero = NewZeroLogger("", "info", false)
 
 // NewZeroLogger initializes a zerolog.Logger.
 // If prettyLogging is true, it outputs in a human-readable format.
